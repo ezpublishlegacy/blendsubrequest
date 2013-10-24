@@ -33,7 +33,7 @@ For example, let's say you wanted to make your legacy full view template render 
 ```
 { render_controller( 'ez_content:viewLocation', hash( 
 	'locationId', $object.main_node_id, 
-	'viewType', 'tile'
+	'viewType', 'full'
 )) }
 ```
 
